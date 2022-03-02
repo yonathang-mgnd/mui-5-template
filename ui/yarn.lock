@@ -1113,7 +1113,7 @@
 "@daml.js/daml-ui-template-0.0.1@file:../daml.js/mui-template-0.1.0":
   version "1.18.0"
   dependencies:
-    "@daml.js/d14e08374fc7197d6a0de468c968ae8ba3aadbf9315476fd39071831f5923662" "file:../../../../AppData/Local/Yarn/Cache/v6/npm-@daml-js-daml-ui-template-0-0-1-1.18.0-ed38c437-f0fe-41b3-a2db-50f41573d7f9-1646139058810/node_modules/@daml.js/d14e08374fc7197d6a0de468c968ae8ba3aadbf9315476fd39071831f5923662"
+    "@daml.js/d14e08374fc7197d6a0de468c968ae8ba3aadbf9315476fd39071831f5923662" "file:../../../../AppData/Local/Yarn/Cache/v6/npm-@daml-js-daml-ui-template-0-0-1-1.18.0-1ce75a61-d984-4e59-8cfc-a6df89376bda-1646143414885/node_modules/@daml.js/d14e08374fc7197d6a0de468c968ae8ba3aadbf9315476fd39071831f5923662"
     "@mojotech/json-type-validation" "^3.1.0"
 
 "@daml/ledger@1.18.0":
@@ -1535,6 +1535,13 @@
     clsx "^1.1.1"
     prop-types "^15.7.2"
     react-is "^17.0.2"
+
+"@mui/icons-material@^5.4.4":
+  version "5.4.4"
+  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.4.4.tgz#0dc7b4e68cbbdfc675f09f0763be1100aad910af"
+  integrity sha512-7zoRpjO8vsd+bPvXq6rtXu0V8Saj70X09dtTQogZmxQKabrYW3g7+Yym7SCRA7IYVF3ysz2AvdQrGD1P/sGepg==
+  dependencies:
+    "@babel/runtime" "^7.17.2"
 
 "@mui/material@^5.4.4":
   version "5.4.4"

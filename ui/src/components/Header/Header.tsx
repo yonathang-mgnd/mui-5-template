@@ -4,7 +4,7 @@ import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
-// import ExitToApp from "@mui/icons-material/ExitToApp";
+import LogoutIcon from '@mui/icons-material/Logout';
 import { useUserDispatch, signOut, useUserState } from "../../context/UserContext";
 import useStyles from "./styles";
 
@@ -29,7 +29,7 @@ const Header = ({ history } : RouteComponentProps) => {
           aria-controls="profile-menu"
           onClick={(event) => signOut(userDispatch, history)}
           size="large">
-          {/* <ExitToApp className={classes.headerIcon} /> */}
+          <LogoutIcon className={classes.headerIcon} />
         </IconButton>
       </Toolbar>
     </AppBar>
